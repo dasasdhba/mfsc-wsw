@@ -1,8 +1,8 @@
-name: Daily MFSC Draw
+name: Hourly MFSC Draw
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -20,11 +20,14 @@ jobs:
         run: pip install requests
       
       - name: Run draw script
+        env:
+          NOTIFY_TYPE: ${{ secrets.NOTIFY_TYPE }}
+          NOTIFY_KEY: ${{ secrets.NOTIFY_KEY }}
         run: python draw_batch.py
       
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
-          name: mfsc-results
+          name: mfsc-results-${{ github.run_number }}
           path: result/
-          retention-days: 7
+          retention-days: 1

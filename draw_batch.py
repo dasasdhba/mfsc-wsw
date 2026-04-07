@@ -3,10 +3,11 @@ import time
 import requests
 import base64
 import hashlib
+from datetime import datetime
 
 API_URL = "https://zh.wsw233.com/api/tools/mfsc_special/draw"
 RESULT_DIR = "result"
-COUNT = 1000
+COUNT = 10
 
 os.makedirs(RESULT_DIR, exist_ok=True)
 
@@ -29,24 +30,28 @@ def draw():
         filepath = os.path.join(RESULT_DIR, filename)
         with open(filepath, "wb") as f:
             f.write(img_bytes)
+        print(f"有效抽取: {filename}")
         return True
     else:
+        print("遇到无效抽取，停止")
         return False
 
-print(f"开始抽取 {COUNT} 次...")
+print(f"[{datetime.now()}] 开始抽取最多 {COUNT} 次，遇到 false 停止...")
 new_count = 0
-old_count = 0
+found_new = False
 
 for i in range(COUNT):
     result = draw()
     if result is True:
         new_count += 1
+        found_new = True
     elif result is False:
-        old_count += 1
+        break
     
-    print(f"进度: {i+1}/{COUNT} (new: {new_count}, old: {old_count})")
     time.sleep(0.5)
 
-print(f"\n完成！共抽取 {COUNT} 次")
-print(f"有效抽取 (is_new=True): {new_count}")
-print(f"无效抽取 (is_new=False): {old_count}")
+if found_new:
+    print(f"\n抽到 {new_count} 张新图，标记为失败以发送通知")
+    raise SystemExit(1)
+
+print(f"\n完成！有效抽取: {new_count} 次")
