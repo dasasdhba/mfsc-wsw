@@ -20,9 +20,6 @@ jobs:
         run: pip install requests
       
       - name: Run draw script
-        env:
-          NOTIFY_TYPE: ${{ secrets.NOTIFY_TYPE }}
-          NOTIFY_KEY: ${{ secrets.NOTIFY_KEY }}
         run: python draw_batch.py
       
       - name: Upload results
