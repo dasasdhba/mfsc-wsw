@@ -1,8 +1,6 @@
 name: MFSC Draw
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
   repository_dispatch:
     types: [mfsc-draw-trigger]
