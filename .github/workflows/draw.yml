@@ -27,4 +27,4 @@ jobs:
         with:
           name: mfsc-results-${{ github.run_number }}
           path: result/
-          retention-days: 1
+          retention-days: 7
