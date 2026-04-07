@@ -2,3 +2,4 @@ result/
 nul
 wsw.html
 __pycache__/
+gui-sock-*
