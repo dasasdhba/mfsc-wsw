@@ -155,6 +155,19 @@ def commit_to_repo(new_images):
             "message": f"Add {filename}"
         })
     
+    updates = []
+    for label, img_hash, filename in new_images:
+        filepath = os.path.join(RESULT_DIR, filename)
+        with open(filepath, "rb") as f:
+            content = f.read()
+        content_b64 = base64.b64encode(content).decode('utf-8')
+        updates.append({
+            "path": f"result/{filename}",
+            "content": content_b64,
+            "message": f"Add {filename}"
+        })
+    
+    # README 最后提交
     updates.append({
         "path": "README.md",
         "content": base64.b64encode(new_content.encode('utf-8')).decode('utf-8'),
@@ -162,34 +175,32 @@ def commit_to_repo(new_images):
     })
     
     try:
-        for update in updates:
-            sha = None
-            
-            # 获取文件 sha
+        # 先提交图片文件
+        for update in updates[:-1]:
             try:
                 existing = repo.get_contents(update["path"])
-                if existing:
-                    sha = existing.sha
+                sha = existing.sha if existing else None
             except Exception:
-                pass  # 文件不存在是正常的
+                sha = None
             
-            # 提交文件
             if sha:
-                repo.update_file(
-                    path=update["path"],
-                    message=update["message"],
-                    content=update["content"],
-                    sha=sha,
-                    branch="main"
-                )
+                repo.update_file(path=update["path"], message=update["message"], content=update["content"], sha=sha, branch="main")
             else:
-                repo.create_file(
-                    path=update["path"],
-                    message=update["message"],
-                    content=update["content"],
-                    branch="main"
-                )
-                
+                repo.create_file(path=update["path"], message=update["message"], content=update["content"], branch="main")
+        
+        # 最后提交 README（需要获取最新 sha）
+        readme_update = updates[-1]
+        try:
+            existing = repo.get_contents("README.md")
+            sha = existing.sha if existing else None
+        except Exception:
+            sha = None
+        
+        if sha:
+            repo.update_file(path=readme_update["path"], message=readme_update["message"], content=readme_update["content"], sha=sha, branch="main")
+        else:
+            repo.create_file(path=readme_update["path"], message=readme_update["message"], content=readme_update["content"], branch="main")
+        
         print(f"已提交 {len(new_images)} 个新文件")
     except Exception as e:
         print(f"提交失败: {e}")

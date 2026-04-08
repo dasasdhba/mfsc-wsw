@@ -63,5 +63,3 @@ GitHub Action 需要配置如下环境变量：
 - Aggressive Dance-88-Difficulty 11
 - Aggressive Dance-39-Difficulty 11
 - Aggressive Dance-109-Difficulty 11
-- Aggressive Dance-32-Difficulty 11
-- Aggressive Dance-145-Difficulty 11
