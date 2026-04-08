@@ -133,11 +133,14 @@ def commit_to_repo(new_images):
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(f"{OWNER}/{REPO}")
     
+    # 读取 README 时正确处理编码
+    readme_content = ""
     try:
         readme = repo.get_contents("README.md")
-        readme_content = base64.b64decode(readme.content).decode('utf-8')
-    except:
-        readme_content = ""
+        if readme and readme.content:
+            readme_content = base64.b64decode(readme.content).decode('utf-8')
+    except Exception as e:
+        print(f"读取 README 失败: {e}")
     
     new_lines = [f"- {img[0]}" for img in new_images]
     new_content = readme_content + "\n" + "\n".join(new_lines)
@@ -162,22 +165,18 @@ def commit_to_repo(new_images):
     
     try:
         for update in updates:
+            sha = None
+            
+            # 获取文件 sha
             try:
                 existing = repo.get_contents(update["path"])
-                sha = existing.sha if existing else None
+                if existing:
+                    sha = existing.sha
             except Exception:
-                sha = None
+                pass  # 文件不存在是正常的
             
-            if sha is None:
-                # 新文件，使用 create_file
-                repo.create_file(
-                    path=update["path"],
-                    message=update["message"],
-                    content=update["content"],
-                    branch="main"
-                )
-            else:
-                # 已有文件，使用 update_file
+            # 提交文件
+            if sha:
                 repo.update_file(
                     path=update["path"],
                     message=update["message"],
@@ -185,6 +184,14 @@ def commit_to_repo(new_images):
                     sha=sha,
                     branch="main"
                 )
+            else:
+                repo.create_file(
+                    path=update["path"],
+                    message=update["message"],
+                    content=update["content"],
+                    branch="main"
+                )
+                
         print(f"已提交 {len(new_images)} 个新文件")
     except Exception as e:
         print(f"提交失败: {e}")
