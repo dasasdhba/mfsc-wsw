@@ -12,7 +12,7 @@ RESULT_DIR = "result"
 COUNT = 10
 
 SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("MY_TOKEN")
 OWNER = os.getenv("OWNER")
 REPO = os.getenv("REPO")
 
