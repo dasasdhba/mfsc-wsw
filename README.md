@@ -19,6 +19,43 @@ GitHub Action 需要配置如下环境变量：
 
 ## 已收集的节气挂命图
 
+- Aggressive Dance-113-Difficulty 11
+- Aggressive Dance-89-Difficulty 11
+- Aggressive Dance-2-Difficulty 11
+- Aggressive Dance-97-Difficulty 11
+- Weather Insurrection-124-Difficulty 12
+- Aggressive Dance-62-Difficulty 11
+- Aggressive Dance-111-Difficulty 11
+- Aggressive Dance-105-Difficulty 11
+- 夜空のPスイッチロマンス38-Difficulty H
+- Aggressive Dance-131-Difficulty 11
+- 夜空のPスイッチロマン-130-Difficulty 11
+- Aggressive Dance-33-Difficulty 11
+- 夜空のPスイッチロマン-64-Difficulty 11
+- Aggressive Dance-4-Difficulty 11
+- Aggressive Dance-99-Difficulty 11
+- 夜空のPスイッチロマン-131-Difficulty 11
+- 夜空のPスイッチロマン-138-Difficulty 11
+- 夜空のPスイッチロマン-54-Difficulty 11
+- 夜空のPスイッチロマン-69-Difficulty 11
+- 夜空のPスイッチロマン-101P-Difficulty 11
+- Aggressive Dance-127-Difficulty 11
+- 夜空のPスイッチロマンス39-Difficulty 11
+- Aggressive Dance-53-Difficulty 11
+- Aggressive Dance-114-Difficulty 11
+- Aggressive Dance-25-Difficulty 11
+- 夜空のPスイッチロマン-51-Difficulty 11
+- Aggressive Dance-128-Difficulty 11
+- Aggressive Dance-47-Difficulty 11
+- 夜空のPスイッチロマン-106-Difficulty 11
+- 夜空のPスイッチロマン-67-Difficulty 11
+- Aggressive Dance-40-Difficulty 11
+- Weather Insurrection-112-Difficulty 12
+- 夜空のPスイッチロマン-72-Difficulty 11
+- Aggressive Dance-50-Difficulty 11
+- Aggressive Dance-87-Difficulty 11
+- Aggressive Dance-63-Difficulty 11
+- Aggressive Dance-34-Difficulty 11
 - Aggressive Dance-59-Difficulty 11
 - 夜空のPスイッチロマン-128-Difficulty 11
 - Aggressive Dance-54-Difficulty 11

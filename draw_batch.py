@@ -17,7 +17,7 @@ OWNER = os.getenv("OWNER")
 REPO = os.getenv("REPO")
 
 os.makedirs(RESULT_DIR, exist_ok=True)
-def ocr_extract_label(img_path):
+def ocr_extract_label(img_path, max_retries=3):
     """使用硅基流动 DeepSeek OCR"""
     with open(img_path, "rb") as f:
         img_b64 = base64.b64encode(f.read()).decode()
@@ -55,19 +55,29 @@ def ocr_extract_label(img_path):
         "Content-Type": "application/json"
     }
     
-    resp = requests.post(url, json=payload, headers=headers)
-    if resp.ok:
-        result = resp.json()
-        text = result["choices"][0]["message"]["content"]
-        text = text.strip()
-        text = text.replace('\n', '-').replace('\r', '-')
-        text = text.replace(' -', '-').replace('- ', '-')
-        for c in '/\\:*?"<>|':
-            text = text.replace(c, '')
-        return text
-    else:
-        print(f"OCR失败: {resp.text}")
-        return "unknown"
+    for attempt in range(max_retries):
+        resp = requests.post(url, json=payload, headers=headers)
+        
+        if resp.status_code == 429 or "RPM limit" in resp.text:
+            wait_time = 15 * (attempt + 1)
+            print(f"  OCR限速触发，等待 {wait_time} 秒...")
+            time.sleep(wait_time)
+            continue
+        
+        if resp.ok:
+            result = resp.json()
+            text = result["choices"][0]["message"]["content"]
+            text = text.strip()
+            text = text.replace('\n', '-').replace('\r', '-')
+            text = text.replace(' -', '-').replace('- ', '-')
+            for c in '/\\:*?"<>|':
+                text = text.replace(c, '')
+            return text
+        else:
+            print(f"OCR失败: {resp.text[:100]}")
+            time.sleep(5)
+    
+    return "unknown"
 def draw():
     resp = requests.post(API_URL)
     data = resp.json()
