@@ -9,7 +9,7 @@ from PIL import Image
 
 API_URL = "https://zh.wsw233.com/api/tools/mfsc_special/draw"
 RESULT_DIR = "result"
-COUNT = 10
+COUNT = 1
 
 SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
 GITHUB_TOKEN = os.getenv("MY_TOKEN")
@@ -164,16 +164,27 @@ def commit_to_repo(new_images):
         for update in updates:
             try:
                 existing = repo.get_contents(update["path"])
-                sha = existing.sha
-            except:
+                sha = existing.sha if existing else None
+            except Exception:
                 sha = None
-            repo.update_file(
-                path=update["path"],
-                message=update["message"],
-                content=update["content"],
-                sha=sha,
-                branch="main"
-            )
+            
+            if sha is None:
+                # 新文件，使用 create_file
+                repo.create_file(
+                    path=update["path"],
+                    message=update["message"],
+                    content=update["content"],
+                    branch="main"
+                )
+            else:
+                # 已有文件，使用 update_file
+                repo.update_file(
+                    path=update["path"],
+                    message=update["message"],
+                    content=update["content"],
+                    sha=sha,
+                    branch="main"
+                )
         print(f"已提交 {len(new_images)} 个新文件")
     except Exception as e:
         print(f"提交失败: {e}")
