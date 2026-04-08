@@ -24,6 +24,8 @@ def draw():
     is_new = code == 0
     
     if is_new:
+        if "," in image_data:
+            image_data = image_data.split(",", 1)[1]
         img_bytes = base64.b64decode(image_data)
         img_hash = hashlib.md5(img_bytes).hexdigest()[:8]
         filename = f"new_{img_hash}.png"
