@@ -133,14 +133,12 @@ def commit_to_repo(new_images):
     g = Github(GITHUB_TOKEN)
     repo = g.get_repo(f"{OWNER}/{REPO}")
     
-    # 读取 README 时正确处理编码
-    readme_content = ""
-    try:
-        readme = repo.get_contents("README.md")
-        if readme and readme.content:
-            readme_content = base64.b64decode(readme.content).decode('utf-8')
-    except Exception as e:
-        print(f"读取 README 失败: {e}")
+    # 直接从本地读取 README
+    if os.path.exists("README.md"):
+        with open("README.md", "r", encoding="utf-8") as f:
+            readme_content = f.read()
+    else:
+        readme_content = ""
     
     new_lines = [f"- {img[0]}" for img in new_images]
     new_content = readme_content + "\n" + "\n".join(new_lines)
