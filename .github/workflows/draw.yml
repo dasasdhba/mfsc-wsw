@@ -10,6 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            result
+            README.md
+          sparse-checkout-cone-mode: false
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -17,16 +22,12 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pillow PyGithub
       
       - name: Run draw script
         run: python draw_batch.py
-        continue-on-error: true
-      
-      - name: Upload results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: mfsc-results-${{ github.run_number }}
-          path: result/
-          retention-days: 7
+        env:
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
