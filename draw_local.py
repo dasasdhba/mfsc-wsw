@@ -4,11 +4,12 @@ import requests
 import base64
 import hashlib
 from datetime import datetime
+from difflib import SequenceMatcher
 from PIL import Image
 
 API_URL = "https://zh.wsw233.com/api/tools/mfsc_special/draw"
 RESULT_DIR = "result"
-COUNT = 10
+COUNT = 1
 README_FILE = "README.md"
 
 SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
@@ -19,23 +20,13 @@ def ocr_extract_label(img_path, max_retries=3):
     with open(img_path, "rb") as f:
         img_b64 = base64.b64encode(f.read()).decode()
     
-    img = Image.open(img_path)
-    w, h = img.size
-    crop = img.crop((0, int(h*0.8), int(w*0.7), h))
-    crop_path = os.path.join(RESULT_DIR, "temp_crop.jpg")
-    crop.save(crop_path, "JPEG")
-    
-    with open(crop_path, "rb") as f:
-        img_b64 = base64.b64encode(f.read()).decode()
-    os.remove(crop_path)
-    
     url = "https://api.siliconflow.cn/v1/chat/completions"
     payload = {
         "model": "Qwen/Qwen2-VL-72B-Instruct",
         "messages": [{
             "role": "user",
             "content": [
-                {"type": "text", "text": "请识别图片左下角区域的所有文字内容。包括关卡名称、难度评价(难度:xx难度)、WSW的编号等所有信息。直接返回识别的文字，不要做任何解释。"},
+                {"type": "text", "text": "请识别图片左下角区域的所有文字内容。包括关卡名称、难度评价等所有信息；如果未能识别到文字，则尝试识别其他地方的醒目文字；如果还是识别不到，就返回 unknown。直接返回识别的文字，不要做任何解释。"},
                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img_b64}"}}
             ]
         }],
@@ -107,6 +98,9 @@ def update_readme(new_items):
         with open(README_FILE, "r", encoding="utf-8") as f:
             content = f.read()
     
+    if not content.endswith('\n'):
+        content += '\n'
+    
     for label in new_items:
         line = f"- {label}"
         if line not in content:
@@ -117,18 +111,36 @@ def update_readme(new_items):
     
     print(f"已更新 README.md")
 
-print(f"[{datetime.now()}] 本地测试开始，抽取最多 {COUNT} 次...")
+print(f"[{datetime.now()}] 开始抽取...")
+
+if os.path.exists(RESULT_DIR):
+    existing_files = [f for f in os.listdir(RESULT_DIR) if f.endswith('.jpg')]
+    existing_labels = [f.rsplit("_", 1)[0] for f in existing_files if "_" in f]
+else:
+    existing_files = []
+    existing_labels = []
+
+print(f"本地已有 {len(existing_files)} 个文件")
 
 collected = []
-existing = set(os.listdir(RESULT_DIR))
+very_new_labels = []
 
 for i in range(COUNT):
     result = draw()
     if isinstance(result, tuple):
         label, filename = result
-        if filename not in existing:
+        if filename in existing_files:
+            print(f"图片 {filename} 已存在，跳过")
+        else:
+            if len(existing_labels) > 0:
+                max_sim = max(SequenceMatcher(None, label, old_label).ratio() for old_label in existing_labels)
+                if max_sim < 0.6:
+                    print(f"!!! 极新关卡: {label} (相似度: {max_sim:.2f})")
+                    very_new_labels.append(label)
+            
             collected.append(label)
-            existing.add(filename)
+            existing_files.append(filename)
+            existing_labels.append(label)
     elif result is False:
         break
     time.sleep(0.5)
@@ -136,10 +148,10 @@ for i in range(COUNT):
 if collected:
     print(f"\n抽到 {len(collected)} 张新图: {collected}")
     update_readme(collected)
-    print("\n结果:")
-    print(f"  图片保存在: {RESULT_DIR}/")
-    print(f"  README 已更新")
+    
+    if very_new_labels:
+        with open("very_new.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(very_new_labels))
+        print(f"\n发现 {len(very_new_labels)} 个极新关卡，已写入 very_new.txt")
 else:
     print("\n未抽到新图")
-
-print("\n本地测试完成!")

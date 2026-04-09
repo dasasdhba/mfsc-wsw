@@ -9,13 +9,8 @@ jobs:
   draw:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            result
-            README.md
-            draw_batch.py
-          sparse-checkout-cone-mode: false
+      - name: Checkout repository
+        uses: actions/checkout@v4
       
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -23,12 +18,41 @@ jobs:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install requests pillow PyGithub
+        run: pip install requests pillow
+      
+      - name: Configure git
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
       
       - name: Run draw script
-        run: python draw_batch.py
+        run: python draw_local.py
         env:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          MY_TOKEN: ${{ secrets.MY_TOKEN }}
-          OWNER: ${{ github.repository_owner }}
-          REPO: ${{ github.event.repository.name }}
+      
+      - name: Commit and push
+        run: |
+          git add result/ README.md
+          if git diff --staged --quiet; then
+            echo "没有新文件需要提交"
+            echo "NO_NEW_FILES=true" >> $GITHUB_ENV
+          else
+            git commit -m "添加新抽取的节气挂命图"
+            git push
+            echo "NO_NEW_FILES=false" >> $GITHUB_ENV
+          fi
+      
+      - name: Check for very new images
+        if: env.NO_NEW_FILES != 'true'
+        run: |
+          if [ -f "very_new.txt" ]; then
+            echo "检测到极新关卡:"
+            cat very_new.txt
+            echo "VERY_NEW=true" >> $GITHUB_ENV
+          else
+            echo "VERY_NEW=false" >> $GITHUB_ENV
+          fi
+      
+      - name: Fail if very new images found
+        if: env.VERY_NEW == 'true'
+        run: exit 1

@@ -63,3 +63,14 @@ GitHub Action 需要配置如下环境变量：
 - Aggressive Dance-88-Difficulty 11
 - Aggressive Dance-39-Difficulty 11
 - Aggressive Dance-109-Difficulty 11
+- Scourge of Depravity-16-Difficulty 11
+- Aggressive Dance-90-Difficulty 11
+- Aggressive Dance-157-Difficulty 11
+- Aggressive Dance-215-Difficulty 11
+- Scourage of Depravity-53-Difficulty 11
+- Aggressive Dance-191-Difficulty 11
+- Scourge of Depravity-68-Difficulty 11
+- Aggressive Dance-224-Difficulty 11
+- Aggressive Dance-219-Difficulty 11
+- Scourge of Depravity-62-Difficulty 11
+- Scourge of Depravity-42-Difficulty 11
