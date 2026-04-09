@@ -9,7 +9,7 @@ from PIL import Image
 
 API_URL = "https://zh.wsw233.com/api/tools/mfsc_special/draw"
 RESULT_DIR = "result"
-COUNT = 1
+COUNT = 32
 README_FILE = "README.md"
 
 SILICONFLOW_API_KEY = os.getenv("SILICONFLOW_API_KEY")
