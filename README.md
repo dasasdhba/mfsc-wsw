@@ -1,15 +1,17 @@
 # 说明
 
-## 本地测试
+本脚本使用了 [SILICONFLOW](https://cloud.siliconflow.cn) 的 `Qwen2-VL-72B-Instruct` 模型用于文字识别，为使用本脚本，你需要在该平台上申请一个 API Key；如果你觉得这个模型对你来说不实惠，可以编辑 `draw_local.py` 脚本，将 `Qwen2-VL-72B-Instruct` 换成其他的模型
 
-请配置环境变量 `SILICONFLOW_API_KEY` 用于文字识别，然后运行 `python draw_local.py`
+## 本地运行
+
+请配置环境变量 `SILICONFLOW_API_KEY`，然后运行 `python draw_local.py`；方便起见，你可以在 repo 目录下新建一个 `SILICONFLOW_API_KEY.txt` 文件，将 key 填入其中，然后运行 `local_run.bat` 或者 `local_loop.bat`，前者可以配合操作系统的计划任务实现定时抽取，后者是一个每小时定时抽取的脚本
 
 ## GitHub Action
 
-请打开 repo Action 的读写权限，并配置 repo secret `SILICONFLOW_API_KEY`；此外，由于 GitHub Action 的 CronJob 无法正常工作，推荐使用 Cloudflare Worker 部署自动化触发 Action，具体来说：
+由于所有的 GitHub Action Runner 会被 API 标记为同一类请求，不建议 fork 的 repo 使用 GitHub Action。如果想要测试，请打开 repo Action 的读写权限，并配置 repo secret `SILICONFLOW_API_KEY`，然后在 Actions 界面中手动 `run workflow`；此外，由于 GitHub Action 的 CronJob 有时候无法正常工作，推荐使用 Cloudflare Worker 部署自动化触发 Action，具体来说：
 
 1. 将 `worker.js` 部署到 Cloudflare Worker
-2. 在 setting 中填入环境变量 `GITHUB_TOKEN`、`GITHUB_OWNER`、`GITHUB_REPO`，这里的 token 要确保有 `repo` 权限（用于提交代码）
+2. 在 setting 中填入环境变量 `GITHUB_TOKEN`、`GITHUB_OWNER`、`GITHUB_REPO`，这里的 token 要确保有 `repo` 权限
 3. 在 setting 中设定好 CronJob 间隔，设定为每小时一次就好
 
 ## 已收集的节气挂命图
