@@ -161,3 +161,30 @@
 - Scourge of Depravity-21-Difficulty 11
 - Scourge of Depravity-35-Difficulty 11
 - Aggressive Dance-117-Difficulty 11
+- Lucky G S-42-Difficulty 12
+- Lucky G S-34-Difficulty 12
+- Lucky GS-8-Difficulty 12
+- Lucky G S-36-Difficulty 12
+- Lucky G S-33-Difficulty 12
+- Lucky GS-2-Difficulty 12
+- Lucky GS-12-Difficulty 12
+- Scourage of Depravity-107-Difficulty 11
+- Lucky GS-9-Difficulty 12
+- Lucky G S-17-Difficulty 12
+- Lucky G S-21-Difficulty 12
+- Scourage of Depravity-110-Difficulty 11
+- Aggressive Dance-200-Difficulty 11
+- Lucky G S-39-Difficulty 12
+- Lucky GS-4-Difficulty 12
+- Scourage of Depravity-100-Difficulty 11
+- Lucky G S-13-Difficulty 12
+- Scourage of Depravity-108-Difficulty 11
+- Lucky G S-28-Difficulty 12
+- Lucky G S-30-Difficulty 12
+- Scourge of Depravity-95-Difficulty 11
+- Scourge of Depravity-106-Difficulty 11
+- Lucky G S-7-Difficulty 12
+- Lucky GS-3-Difficulty 12
+- Scourge of Depravity-111-Difficulty 11
+- Lucky G S-41-Difficulty 12
+- Lucky G S-16-Difficulty 12
