@@ -116,3 +116,19 @@
 - Scourge of Depravity-9-Difficulty 11
 - Scourge of Depravity-54-Difficulty 11
 - Scourge of Depravity-18-Difficulty 11
+- Scourge of Depravity-91-Difficulty 11
+- Scourge of Depravity-66-Difficulty 11
+- Scourge of Depravity-7-Difficulty 11
+- Scourge of Depravity-34-Difficulty 11
+- Scourge of Depravity-89-Difficulty 11
+- Scourage of Depravity-50-Difficulty 11
+- Scourage of Depravity-14-Difficulty 11
+- Aggressive Dance-203-Difficulty 11
+- Scourge of Depravity-93-Difficulty 11
+- Aggressive Dance-198-Difficulty 11
+- Scourge of Depravity-64-Difficulty 11
+- Scourge of Depravity-28-Difficulty 11
+- Scourge of Depravity-73-Difficulty 11
+- Aggressive Dance-188-Difficulty 11
+- Scourge of Depravity-90-Difficulty 11
+- Scourge of Depravity-37-Difficulty 11
