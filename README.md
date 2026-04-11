@@ -188,3 +188,30 @@
 - Scourge of Depravity-111-Difficulty 11
 - Lucky G S-41-Difficulty 12
 - Lucky G S-16-Difficulty 12
+- Lucky G S-40-Difficulty 12
+- Scourge of Depravity-103-Difficulty 11
+- Lucky GS-15-Difficulty 12
+- Lucky G S-22-Difficulty 12
+- Lucky G S-20-Difficulty 12
+- Lucky GS-18-Difficulty 12
+- Lucky G S-19-Difficulty 12
+- Lucky G S-25-Difficulty 12
+- Scourage of Depravity-94-Difficulty 11
+- Lucky GS-14-Difficulty 12
+- Lucky GS-35-Difficulty 12
+- Lucky GS-157-Difficulty 12
+- Lucky G S-91-Difficulty 12
+- Lucky GS-184-Difficulty 12
+- Lucky G S-88-Difficulty 12
+- Lucky G S-92-Difficulty 12
+- Lucky GS-149-Difficulty 12
+- Lucky G S-125-Difficulty 12
+- Lucky GS-112-Difficulty 12
+- Lucky G S-84-Difficulty 12
+- Lucky G S-153-Difficulty 12
+- Lucky G S-58-Difficulty 12
+- Lucky GS-170-Difficulty 12
+- Lucky GS-110-Difficulty 12
+- Lucky G Saj72-Difficulty 12
+- Lucky G S-69-Difficulty 12
+- Lucky GS-185-Difficulty 12
