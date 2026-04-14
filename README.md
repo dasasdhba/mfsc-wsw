@@ -305,3 +305,34 @@
 - Lucky G S-231-Difficulty 12
 - Lucky GS-241-Difficulty 12
 - Lucky G S-212-Difficulty 12
+- Lucky GS-267-Difficulty 12
+- Lucky GS-220-Difficulty 12
+- Lucky G S-340-Difficulty 12
+- Lucky GS-311-Difficulty 12
+- Lucky GS-328-Difficulty 12
+- Lucky GS-350-Difficulty 12
+- Lucky G S-338-Difficulty 12
+- Lucky G S-357-Difficulty 12
+- Lucky G S-314-Difficulty 12
+- Lucky GS-347-Difficulty 12
+- Lucky GS-372-Difficulty 12
+- Lucky GS-310-Difficulty 12
+- Lucky GS-309-Difficulty 12
+- Lucky GS-369-Difficulty 12
+- Lucky G S-256-Difficulty 12
+- Lucky G S-261-Difficulty 12
+- LuckyGS-375-Difficulty 12
+- Lucky GS-289-Difficulty 12
+- LuckyGS-368-Difficulty 12
+- Lucky GS-323-Difficulty 12
+- Lucky GS-288-Difficulty 12
+- Lucky G S-299-Difficulty 12
+- Lucky G S-270-Difficulty 12
+- Lucky G S-258-Difficulty 12
+- Lucky G S-259-Difficulty 12
+- Lucky GS-308-Difficulty 12
+- Lucky GS-325-Difficulty 12
+- Lucky GS-366-Difficulty 12
+- Lucky G S-354-Difficulty 12
+- Lucky GS-374-Difficulty 12
+- Lucky G S-356-Difficulty 12
