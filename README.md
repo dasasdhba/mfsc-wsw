@@ -380,3 +380,16 @@
 - Lucky G S-387-Difficulty 12
 - Lucky GS-429-Difficulty 12
 - Lucky G S-426-Difficulty 12
+- Lucky GS-341-Difficulty 12
+- Lucky G S-346-Difficulty 12
+- Lucky G S-281-Difficulty 12
+- Lucky G S-416-Difficulty 12
+- Lucky GS-421-Difficulty 12
+- Lucky G S-263-Difficulty 12
+- Lucky GS-384-Difficulty 12
+- Lucky G S-408-Difficulty 12
+- Lucky GS-405-Difficulty 12
+- Lucky G S-312-Difficulty 12
+- Lucky G S-365-Difficulty 12
+- Lucky GS-343-Difficulty 12
+- Lucky G S-413-Difficulty 12
