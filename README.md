@@ -459,3 +459,24 @@
 - Autumn Block-122-Difficulty 13+
 - Autumn Block-146-Difficulty 13+
 - Autumn Block-35-Difficulty 13+
+- Autumn Block-171-Difficulty 13+
+- Autumn Block-68-Difficulty 13+
+- Autumn Block-120-Difficulty 13+
+- Autumn Block-135-Difficulty 13+
+- Autumn Block-127-Difficulty 13+
+- Autumn Block-46-Difficulty 13+
+- Autumn Block-53-Difficulty 13+
+- Autumn Block-72-Difficulty 13+
+- Lucky G S-458-Difficulty 12
+- Autumn Block-61-Difficulty 13+
+- Autumn Block-64-Difficulty 13+
+- Autumn Block-116-Difficulty 13+
+- Autumn Block-79-Difficulty 13+
+- Autumn Block-65-Difficulty 13+
+- Lucky G S-454-Difficulty 12
+- Autumn Block-67-Difficulty 13+
+- Autumn Block-170-Difficulty 13+
+- Autumn Block-57-Difficulty 13+
+- Autumn Block-111-Difficulty 13+
+- Autumn Block-139-Difficulty 13+
+- Autumn Block-78-Difficulty 13+
