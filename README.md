@@ -751,3 +751,30 @@
 - Autumn Block-567-Difficulty 1B+
 - Autumn Block-471-Difficulty 13+
 - Autumn Block-487-Difficulty 13+
+- Autumn Block-510-Difficulty 13+
+- Autumn Block-538-Difficulty 13+
+- Autumn Block-498-Difficulty 13+
+- Teranolia-20-Difficulty 12+
+- Autumn Block-581-Difficulty 13+
+- Autumn Block-548-Difficulty 13+
+- Autumn Block-477-Difficulty 13+
+- Autumn Block-574-Difficulty 13+
+- Autumn Block-507-Difficulty 13+
+- Autumn Block-589-Difficulty 13+
+- Autumn Block-532-Difficulty 134
+- Teranolia-10-Difficulty 12+
+- Autumn Block-584-Difficulty 13+
+- Autumn Block-518-Difficulty 13+
+- Autumn Block-512-Difficulty 13+
+- Autumn Block-440-Difficulty 13+
+- Autumn Block-544-Difficulty 13+
+- Autumn Block-572-Difficulty13+
+- Autumn Block-592-Difficulty 13+
+- Autumn Block-441-Difficulty 13+
+- Teranolia-19-Difficulty 12+
+- Autumn Block-519-Difficulty 13+
+- Autumn Block-453-Difficulty 13+
+- Autumn Block-539-Difficulty 13+
+- Autumn Block-580-Difficulty 13+
+- Teranolia-5-Difficulty 12+
+- Autumn Block-513-Difficulty 13+
