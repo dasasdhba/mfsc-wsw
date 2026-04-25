@@ -850,3 +850,31 @@
 - Autumn Block-565-Difficulty13+
 - Teranolia-69-Difficulty 12+
 - Autumn Block-546-Difficulty 13+
+- Teranolia-45-Difficulty 12+
+- Terania-61-Difficulty 12+
+- Teranolia-84-Difficulty 12+
+- Teranolia-25-Difficulty 12+
+- Teranolia-38-Difficulty 12+
+- Teranolia-27-Difficulty 12+
+- Teranolia-50-Difficulty 12+
+- Teranolia-42-Difficulty 12+
+- Teranolia-86-Difficulty 12+
+- Teranolia-48-Difficulty 12+
+- Terania-60-Difficulty 12+
+- Teranolia-43-Difficulty 12+
+- Teranolia-2-Difficulty 12+
+- Teranolia-70-Difficulty 12+
+- Autumn Block-484-Difficulty 13+
+- Teranolia-169-Difficulty 12+
+- Teranolia-155-Difficulty 12+
+- Teranolia-168-Difficulty 12+
+- Teranolia-103-Difficulty 12+
+- Teranolia-150-Difficulty 12+
+- Teranolia-202-Difficulty 12+
+- Teranolia-98-Difficulty 12+
+- Teranolia-162-Difficulty 12+
+- Teranolia-175-Difficulty 12+
+- Teranolia-208-Difficulty 12+
+- Teranolia-109-Difficulty 12+
+- Teranolia-127-Difficulty 12+
+- Teranolia-152-Difficulty 12+
