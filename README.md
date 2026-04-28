@@ -1038,3 +1038,16 @@
 - Teranolia-257-Difficulty 12+
 - Terania-299-Difficulty 12+
 - Teranolia-243-Difficulty 12+
+- 4021...--Teranolia-400-Difficulty 12+
+- 4352.26--Teranolia-445-Difficulty 12+
+- 4341...--Teranolia-444-Difficulty 12+
+- 3618.12
+- 4801...--Teranolia-489-Difficulty 12+
+- 3408.62--Teranolia-322-Difficulty 12+
+- 4234.7
+- 4359...--Teranolia-446-Difficulty 12+
+- 3606.12--Teranolia-343-Difficulty12+
+- 3551...--Teranolia-340-Difficulty 12+
+- 4654...--Teranolia-477-Difficulty 12+
+- 3628.71--Teranolia-347-Difficulty 12+
+- 4537...--Teranolia-464-Difficulty 12+
