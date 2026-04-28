@@ -1,6 +1,6 @@
 # 说明
 
-本脚本使用了 [SILICONFLOW](https://cloud.siliconflow.cn) 的 `Qwen2-VL-72B-Instruct` 模型用于文字识别，为使用本脚本，你需要在该平台上申请一个 API Key；如果你觉得这个模型对你来说不实惠，可以编辑 `draw_local.py` 脚本，将 `Qwen2-VL-72B-Instruct` 换成其他的模型
+本脚本使用了 [SILICONFLOW](https://cloud.siliconflow.cn) 的 `PaddleOCR-VL-1.5` 模型用于文字识别，为使用本脚本，你需要在该平台上申请一个 API Key；这个模型是免费使用的，如果你想换成别的付费模型，请自行修改
 
 ## 本地运行
 

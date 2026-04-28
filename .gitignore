@@ -4,3 +4,4 @@ __pycache__/
 gui-sock-*
 very_new.txt
 SILICONFLOW_API_KEY.txt
+test_ocr.py
