@@ -22,7 +22,7 @@ def ocr_extract_label(img_path, max_retries=3):
     
     url = "https://api.siliconflow.cn/v1/chat/completions"
     payload = {
-        "model": "Qwen/Qwen2-VL-72B-Instruct",
+        "model": "PaddleOCR-VL-1.5",
         "messages": [{
             "role": "user",
             "content": [
