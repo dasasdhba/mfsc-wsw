@@ -1,6 +1,6 @@
 # 说明
 
-本脚本使用了 [SILICONFLOW](https://cloud.siliconflow.cn) 的 `PaddleOCR-VL-1.5` 模型用于文字识别，为使用本脚本，你需要在该平台上申请一个 API Key；这个模型是免费使用的，如果你想换成别的付费模型，请自行修改
+本脚本使用了 [SILICONFLOW](https://cloud.siliconflow.cn) 的 `Qwen/Qwen3.6-35B-A3B` 模型用于文字识别，为使用本脚本，你需要在该平台上申请一个 API Key；如果你想换成别的付费模型，请自行修改
 
 ## 本地运行
 
@@ -1051,3 +1051,30 @@
 - 4654...--Teranolia-477-Difficulty 12+
 - 3628.71--Teranolia-347-Difficulty 12+
 - 4537...--Teranolia-464-Difficulty 12+
+- Teranolia-336-Difficulty 12+
+- Teranolia-392.-Difficulty 12+
+- Teranolia-476-Difficulty 12+
+- Teranolia 331-Difficulty 12+
+- Teranolia-389-Difficulty 12+
+- Teranolia-375-Difficulty 12+
+- Teranolia-368-Difficulty 12+
+- Teranolia-374-Difficulty 12+
+- Teranolia-490-Difficulty 12+
+- Teranolia-457-Difficulty 12+
+- Teranolia-450-Difficulty 12+
+- Teranolia-487-Difficulty 12+
+- Teranolia-421-Difficulty 12+
+- Teranolia-367-Difficulty 12+
+- Teranolia-420-Difficulty 12+
+- Teranolia-442-Difficulty 12+
+- Teranolia-291-Difficulty 12+
+- Teranolia-412-Difficulty 12+
+- Teranolia-478-Difficulty 12+
+- Teranolia-339-Difficulty 12+
+- Teranolia-384-Difficulty 12+
+- Teranolia-493-Difficulty 12+
+- Teranolia-361-Difficulty 12+
+- Teranolia-482-Difficulty 12+
+- Teranolia-454-Difficulty 12+
+- Teranolia-369-Difficulty 12+
+- Teranolia-327-Difficulty 12+
