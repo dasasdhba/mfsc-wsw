@@ -1120,3 +1120,29 @@
 - Teranolia-319-Difficulty 12+
 - Teranolia 371-Difficulty 12+
 - Teranolia-394-Difficulty 12+
+- Teranolia-351-Difficulty 12+
+- Teranolia-447-Difficulty 12+
+- Teranolia-439-Difficulty 12+
+- Teranolia-471-Difficulty 12+
+- Teranolia-462-Difficulty 12+
+- Teranolia-357-Difficulty 12+
+- Teranolia-491-Difficulty 12+
+- Teranolia-326-Difficulty 12+
+- Teranolia-342-Difficulty 12+
+- Teranolia-399-Difficulty 12+
+- Teranolia-485-Difficulty 12+
+- Teranolia-350-Difficulty 12+
+- Teranolia-373-Difficulty 12+
+- Teranolia-300-Difficulty 12+
+- Teranolia-409-Difficulty 12+
+- Teranolia-404-Difficulty 12+
+- Teranolia-469-Difficulty 12+
+- Teranolia-414-Difficulty 12+
+- Teranolia-438-Difficulty 12+
+- Teranolia-492-Difficulty 12+
+- Teranolia-463-Difficulty 12+
+- Teranolia-480-Difficulty 12+
+- Teranolia-407-Difficulty 12+
+- Teranolia 483-Difficulty 12+
+- Teranolia-418-Difficulty 12+
+- Teranolia-453-Difficulty 12+
