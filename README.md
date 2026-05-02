@@ -1298,3 +1298,6 @@
 - Teranolia-570-Difficulty 12+
 - Teranolia-586-Difficulty 12+
 - Teranolia-579-Difficulty 12+
+- Teranolia-619-Difficulty 12+
+- Teranolia-618-Difficulty 12+
+- Teranolia-538-Difficulty 12+
