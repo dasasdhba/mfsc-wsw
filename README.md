@@ -1417,3 +1417,8 @@
 - Teranolia_933-Difficulty 12+
 - Teranolia-838-Difficulty 12+
 - Teranolia-960-Difficulty 12+
+- Teranolia-975-Difficulty 12+
+- Teranolia_986-Difficulty 12+
+- Teranolia-836-Difficulty 12+
+- Teranolia-948-Difficulty 12+
+- Teranolia-837-Difficulty 12+
