@@ -1484,3 +1484,20 @@
 - Teranolia-965-Difficulty 12+
 - Teranolia-867-Difficulty 12+
 - Teranolia-915-Difficulty 12+
+- Teranolia-998-Difficulty 12+
+- Teranolia-987-Difficulty 12+
+- Teranolia-999-Difficulty 12+
+- Teranolia-880-Difficulty 12+
+- Teranolia-972-Difficulty 12+
+- Teranolia-1018-Difficulty 12+
+- Teranolia-949-Difficulty 12+
+- Teranolia-840-Difficulty 12+
+- Teranolia-1023-Difficulty 12+
+- Teranolia-1020-Difficulty 12+
+- Teranolia-942-Difficulty 12+
+- Teranolia-829-Difficulty 12+
+- Teranolia-1007-Difficulty 12+
+- Teranolia-1041-Difficulty 12+
+- Teranolia-1063-Difficulty 12+
+- Teranolia-1039-Difficulty 12+
+- Teranolia-1058-Difficulty12+
