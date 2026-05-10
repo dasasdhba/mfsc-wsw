@@ -68,13 +68,11 @@ def draw():
                 time.sleep(5)
             else:
                 print("抽取失败: 请求始终失败")
-                return None
-    else:
-        return None
+                return False
     
     if data.get("code") not in [0, 1]:
         print(f"抽取失败: {data.get('message')}")
-        return None
+        return False
     
     code = data["code"]
     image_data = data["image"]
