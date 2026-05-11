@@ -1734,3 +1734,19 @@
 - Teranolia-1384-Difficulty 12+
 - Teranolia-1471-Difficulty 12+
 - Teranolia-1526-Difficulty 12+
+- Teranolia-1355-Difficulty 12+
+- Teranolia 1533-Difficulty 12+
+- Teranolia-1485-Difficulty 12+
+- Teranolia-1394-Difficulty 12+
+- Teranolia-1522-Difficulty 12+
+- Teranolia-1345-Difficulty 12+
+- Teranolia-1466-Difficulty 12+
+- Teranolia-1499-Difficulty 12+
+- Teranolia-1484-Difficulty 12+
+- Teranolia-1477-Difficulty 12+
+- Teranolia-1518-Difficulty 12+
+- Teranolia-1521-Difficulty 12+
+- Teranolia-1532-Difficulty 12+
+- Teranolia-1543-Difficulty 12+
+- Teranolia-1489-Difficulty12+
+- Teranolia-1541-Difficulty 12+
