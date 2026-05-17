@@ -1986,3 +1986,17 @@
 - Hide and Seek-74-Difficulty 11+
 - Hide and Seek-98-Difficulty 11+
 - Hide and Seek-94-Difficulty 11+
+- Hide and Seek-17-Difficulty 11+
+- Hide and Seek-56-Difficulty 11+
+- Hide and Seek-61-Difficulty 11+
+- Hide and Seek-82-Difficulty 11+
+- Hide and Seek-43-Difficulty 11+
+- Hide and Seek-88-Difficulty 11+
+- Hide and Seek-24-Difficulty 11+
+- Hide and Seek-81-Difficulty 11+
+- Hide and Seek-37-Difficulty 11+
+- Hide and Seek-69-Difficulty 11+
+- Hide and Seek-51-Difficulty 11+
+- Hide and Seek-67-Difficulty 11+
+- Hide and Seek-80-Difficulty 11+
+- Hide and Seek-84-Difficulty 11+
