@@ -1957,3 +1957,32 @@
 - Teranolia-1830-Difficulty 12+
 - Teranolia-1948-Difficulty 12+
 - Teranolia-1919-Difficulty 12+
+- Teranolia-1835-Difficulty 12+
+- Hide and Seek-14-Difficulty 11+
+- Teranolia-1947-Difficulty 12+
+- Teranolia-1963-Difficulty 12+
+- Teranolia-1790-Difficulty 12+
+- Teranolia-1855-Difficulty 12+
+- Teranolia-1833-Difficulty 12+
+- Teranolia-1945-Difficulty 12+
+- Teranolia-1901-Difficulty 12+
+- Teranolia-1828-Difficulty 12+
+- Teranolia-1950-Difficulty 12+
+- Teranolia-1970-Difficulty 12+
+- Hide and Seek-21-Difficulty 11+
+- Hide and Seek-22-Difficulty 11+
+- Teranolia-1959-Difficulty 12+
+- Teranolia-1792-Difficulty 12+
+- Hide and Seek-50-Difficulty 11+
+- Hide and Seek-58-Difficulty 11+
+- Hide and Seek-45-Difficulty 11+
+- Hide and Seek-42-Difficulty 11+
+- Hide and Seek-102-Difficulty 11+
+- Hide and Seek-89-Difficulty 11+
+- Hide and Seek-100-Difficulty 11+
+- Hide and Seek-96-Difficulty 11+
+- Hide and Seek-57-Difficulty 11+
+- Hide and Seek-86-Difficulty 11+
+- Hide and Seek-74-Difficulty 11+
+- Hide and Seek-98-Difficulty 11+
+- Hide and Seek-94-Difficulty 11+
