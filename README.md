@@ -1898,3 +1898,27 @@
 - Teranolia-1783-Difficulty 12+
 - Teranolia-1712-Difficulty 12+
 - Teranolia-1775-Difficulty 12+
+- Teranolia-1893-Difficulty 12+
+- Teranolia-1892-Difficulty 12+
+- Teranolia-1952-Difficulty 12+
+- Teranolia-1838-Difficulty 12+
+- Teranolia-1925-Difficulty 12+
+- Teranolia-1910-Difficulty 12+
+- Teranolia-1936-Difficulty 12+
+- Teranolia-1836-Difficulty 12+
+- Teranolia-1860-Difficulty 12+
+- Teranolia-1850-Difficulty 12+
+- Teranolia-1816-Difficulty 12+
+- Teranolia-1829-Difficulty 12+
+- Teranolia-1914-Difficulty 12+
+- Teranolia-1924-Difficulty 12+
+- Teranolia-1851-Difficulty 12+
+- Teranolia-1944-Difficulty 12+
+- Teranolia-1857-Difficulty 12+
+- Teranolia-1842-Difficulty 12+
+- Teranolia-1846-Difficulty 12+
+- Teranolia-1859-Difficulty 12+
+- Teranolia-1899-Difficulty 12+
+- Teranolia-1810-Difficulty 12+
+- Teranolia-1879-Difficulty 12+
+- unknown
