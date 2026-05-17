@@ -1922,3 +1922,12 @@
 - Teranolia-1810-Difficulty 12+
 - Teranolia-1879-Difficulty 12+
 - unknown
+- Teranolia-1870-Difficulty 12+
+- Teranolia-1958-Difficulty 12+
+- Teranolia-1875-Difficulty 12+
+- Hide and Seek-11-Difficulty 11+
+- Teranolia-1930-Difficulty 12+
+- Hide and Seek-15-Difficulty 11+
+- Teranolia-1955-Difficulty 12+
+- Teranolia-1820-Difficulty 12+
+- Teranolia-1817-Difficulty 12+
