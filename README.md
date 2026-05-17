@@ -1931,3 +1931,29 @@
 - Teranolia-1955-Difficulty 12+
 - Teranolia-1820-Difficulty 12+
 - Teranolia-1817-Difficulty 12+
+- Teranolia-1929-Difficulty 12+
+- Teranolia-1926-Difficulty 12+
+- Teranolia-1847-Difficulty 12+
+- Teranolia 1812-Difficulty 12+
+- Teranolia-1852-Difficulty 12+
+- Teranolia-1909-Difficulty 12+
+- Teranolia-1951-Difficulty 12+
+- Teranolia-1954-Difficulty 12+
+- Teranolia-1849-Difficulty 12+
+- Teranolia-1801-Difficulty 12+
+- Teranolia-1853-Difficulty 12+
+- Hide and Seek-9-Difficulty 11+
+- Teranolia-1916-Difficulty 12+
+- Teranolia-1956-Difficulty 12+
+- Teranolia-1964-Difficulty 12+
+- Teranolia-1967-Difficulty 12+
+- Teranolia-1949-Difficulty 12+
+- Hide and Seek-13-Difficulty 11+
+- Hide and Seek-3-Difficulty 11+
+- Teranolia-1931-Difficulty 12+
+- Teranolia-1920-Difficulty 12+
+- Teranolia-1933-Difficulty 12+
+- Teranolia-1913-Difficulty 12+
+- Teranolia-1830-Difficulty 12+
+- Teranolia-1948-Difficulty 12+
+- Teranolia-1919-Difficulty 12+
