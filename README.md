@@ -2029,3 +2029,12 @@
 - Hide and Seek-62-Difficulty 11+
 - Hide and Seek-125-Difficulty 11+
 - Hide and Seek-59-Difficulty 11+
+- Hide and Seek-47-Difficulty 11+
+- Hide and Seek-123-Difficulty 11+
+- Hide and Seek-36-Difficulty 11+
+- Hide and Seek-44-Difficulty 11+
+- Hide and Seek-46-Difficulty 11+
+- Hide and Seek-179-Difficulty 11+
+- Hide and Seek-161-Difficulty 11+
+- Hide and Seek-155-Difficulty 11+
+- Hide and Seek-122-Difficulty 11+
