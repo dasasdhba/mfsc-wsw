@@ -2038,3 +2038,11 @@
 - Hide and Seek-161-Difficulty 11+
 - Hide and Seek-155-Difficulty 11+
 - Hide and Seek-122-Difficulty 11+
+- Hide and Seek-147-Difficulty 11+
+- Hide and Seek-111-Difficulty 11+
+- Hide and Seek-148-Difficulty 11+
+- Hide and Seek-38-Difficulty 11+
+- Hide and Seek-40-Difficulty 11+
+- Hide and Seek-174-Difficulty 11+
+- Hide and Seek-60-Difficulty 11+
+- Hide and Seek-48-Difficulty 11+
