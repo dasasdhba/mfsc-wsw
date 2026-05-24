@@ -2251,3 +2251,8 @@
 - Final Speeding UP-385-Difficulty 13+
 - Final Speeding UP-380-Difficulty 13+
 - Final Speeding UP=300-Difficulty 13+
+- Final Speeding UP-331-Difficulty 13+
+- Final Speeding UP-378-Difficulty 13+
+- Final Speeding UP-302-Difficulty 13+
+- Final Speeding UP-319-Difficulty 13+
+- Final Speeding UP-405-Difficulty 13+
