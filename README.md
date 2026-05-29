@@ -2545,3 +2545,24 @@
 - Final Speeding UP-861-Difficulty 13+
 - Final Speeding UP-832-Difficulty 13+
 - Final Speeding UP-803-Difficulty 13+
+- Final Speeding UP=726-Difficulty 13+
+- Final Speeding UP-688-Difficulty 13+
+- Final Speeding UP-826-Difficulty 13+
+- Final Speeding UP-746-Difficulty 13+
+- Final Speeding UP-833-Difficulty 13+
+- Final Speeding UP-762-Difficulty 13+
+- Final Speeding UP-697-Difficulty 13+
+- Final Speeding UP-678-Difficulty 13+
+- Final Speeding UP-742-Difficulty 13+
+- Final Speeding UP-822-Difficulty 13+
+- Final Speeding UP-843-Difficulty 13+
+- Final Speeding UP=750-Difficulty 13+
+- Final Speeding UP=807-Difficulty 13+
+- Final Speeding UP-841-Difficulty 13+
+- Final Speeding UP 855-Difficulty 13+
+- Final Speeding UP-825-Difficulty 13+
+- Final Speeding UP-736-Difficulty 13+
+- Final Speeding UP-743-Difficulty 13+
+- Final Speeding UP-666-Difficulty 13+
+- Final Speeding UP-838-Difficulty 13+
+- Final Speeding UP-827-Difficulty 13+
