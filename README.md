@@ -2715,3 +2715,13 @@
 - Final Speeding UP-1055-Difficulty 13+
 - Final Speeding UP-1058-Difficulty 13+
 - Final Speeding UP-1031-Difficulty 13+
+- Final Speeding UP-972-Difficulty 13+
+- Final Speeding UP-1038-Difficulty 13+
+- Final Speeding UP-922-Difficulty 13+
+- Final Speeding UP-975-Difficulty 13+
+- Final Speeding UP-920-Difficulty 13+
+- Final Speeding UP=935-Difficulty 13+
+- Final Speeding UP=928-Difficulty 13+
+- Final Speeding UP-1049-Difficulty 13+
+- Final Speeding UP-1001-Difficulty 13+
+- Final Speeding UP-1016-Difficulty 13+
