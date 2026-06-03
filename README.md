@@ -2769,3 +2769,8 @@
 - Final Speeding UP-990-Difficulty 13+
 - Final Speeding UP=941-Difficulty 13+
 - Final Speeding UP=973-Difficulty 13+
+- Final Speeding UP-1183-Difficulty 13+
+- Final Speeding UP-1195-Difficulty 13+
+- Pink Snow-8-Difficulty 13++
+- Final Speeding UP-1139-Difficulty 13+
+- Final Speeding UP-1160-Difficulty 13+
