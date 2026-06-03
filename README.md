@@ -2774,3 +2774,33 @@
 - Pink Snow-8-Difficulty 13++
 - Final Speeding UP-1139-Difficulty 13+
 - Final Speeding UP-1160-Difficulty 13+
+- Pink Snow-2-Difficulty 13++
+- Final Speeding UP-1143-Difficulty 13+
+- Final Speeding UP-1007-Difficulty 13+
+- Pink Snow-33-Difficulty 13++
+- Pink Snow-98-Difficulty 13++
+- Pink Snow-65-Difficulty 13++
+- Pink Snow-96-Difficulty 13++
+- Pink Snow-112-Difficulty 13++
+- Pink Snow-20-Difficulty 13++
+- Final Speeding UP-1191-Difficulty 13+
+- Pink Snow-118-Difficulty 13++
+- Pink Snow-63-Difficulty 13++
+- Pink Snow-133-Difficulty 13++
+- Pink Snow-95-Difficulty 13++
+- Pink Snow-19-Difficulty 13++
+- Pink Snow-29-Difficulty 13++
+- Pink Snow-122-Difficulty 13++
+- Pink Snow-75-Difficulty 13++
+- Pink Snow-78-Difficulty 13++
+- Final Speeding UP-1188-Difficulty 13+
+- Pink Snow-11-Difficulty 13++
+- Pink Snow-35-Difficulty 13++
+- Pink Snow-10-Difficulty 13++
+- Pink Snow-126-Difficulty 13++
+- Pink Snow-76-Difficulty 13++
+- Pink Snow-103-Difficulty 13++
+- Pink Snow-93-Difficulty 13++
+- Pink Snow-14-Difficulty 13++
+- Pink Snow-26-Difficulty 13++
+- Pink Snow-44-Difficulty 13++
