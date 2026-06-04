@@ -2855,3 +2855,16 @@
 - Pink Snow-99-Difficulty 13++
 - Pink Snow-46-Difficulty 13++
 - Pink Snow-120-Difficulty 13++
+- Pink Snow-145-Difficulty 13++
+- Pink Snow-142-Difficulty 13++
+- Pink Snow-77-Difficulty 13++
+- Final Speeding UP-1193-Difficulty 13+
+- Pink Snow-22-Difficulty 13++
+- Pink Snow-55-Difficulty 13++
+- Pink Snow-141-Difficulty 13++
+- Pink Snow-104-Difficulty 13++
+- Pink Snow-59-Difficulty 13++
+- Pink Snow-12-Difficulty 13++
+- Pink Snow-25-Difficulty 13++
+- Pink Snow-47-Difficulty 13++
+- Pink Snow-40-Difficulty 13++
