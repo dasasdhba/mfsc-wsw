@@ -36,23 +36,26 @@ def ocr_extract_label(img_path, max_retries=3):
     headers = {"Authorization": f"Bearer {SILICONFLOW_API_KEY}", "Content-Type": "application/json"}
     
     for attempt in range(max_retries):
-        resp = requests.post(url, json=payload, headers=headers)
-        
-        if resp.status_code == 429 or "RPM limit" in resp.text:
-            wait_time = 15 * (attempt + 1)
-            print(f"  OCR限速触发，等待 {wait_time} 秒...")
-            time.sleep(wait_time)
-            continue
-        
-        if resp.ok:
-            text = resp.json()["choices"][0]["message"]["content"]
-            text = text.strip().replace('\n', '-').replace('\r', '-')
-            for c in '/\\:*?"<>|':
-                text = text.replace(c, '')
-            return text
-        else:
-            print(f"OCR失败: {resp.text[:100]}")
-            time.sleep(5)
+        try:
+            resp = requests.post(url, json=payload, headers=headers, timeout=30)
+            if resp.status_code == 429 or "RPM limit" in resp.text:
+                wait_time = 15 * (attempt + 1)
+                print(f"  OCR限速触发，等待 {wait_time} 秒...")
+                time.sleep(wait_time)
+                continue
+            if resp.ok:
+                text = resp.json()["choices"][0]["message"]["content"]
+                text = text.strip().replace('\n', '-').replace('\r', '-')
+                for c in '/\\:*?"<>|':
+                    text = text.replace(c, '')
+                return text
+            else:
+                print(f"OCR失败: {resp.text[:100]}")
+                time.sleep(5)
+        except Exception as e:
+            print(f"OCR请求失败 (尝试 {attempt + 1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(5)
     
     return "unknown"
 
