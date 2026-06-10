@@ -3123,3 +3123,6 @@
 - Pink Snow-595-Difficulty 13++
 - Pink Snow-602-Difficulty 13++
 - Pink Snow-593-Difficulty 13++
+- Pink Snow-604-Difficulty 13++
+- Pink Snow-600-Difficulty 13++
+- Pink Snow-427-Difficulty 13++
