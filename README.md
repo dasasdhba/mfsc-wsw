@@ -3247,3 +3247,28 @@
 - Fleurs Flétries Gelées-1-Difficulty 11+
 - Pink Snow-674-Difficulty 13++
 - Pink Snow-738-Difficulty 13++
+- Pink Snow-649-Difficulty 13++
+- Fleurs Flétries Gelées-2-Difficulty 11+
+- Pink Snow-746-Difficulty 13++
+- Pink Snow-762-Difficulty 13++
+- Pink Snow-743-Difficulty 13++
+- Pink Snow-672-Difficulty 13++
+- Pink Snow-669-Difficulty 13++
+- Pink Snow-599-Difficulty 13++
+- Pink Snow-687-Difficulty 13++
+- Pink Snow-654-Difficulty 13++
+- Pink Snow-694-Difficulty 13++
+- Pink Snow-711-Difficulty 13++
+- Pink Snow-763-Difficulty 13++
+- Pink Snow-666-Difficulty 13++
+- Pink Snow-732-Difficulty 13++
+- Pink Snow-705-Difficulty 13++
+- Pink Snow-753-Difficulty 13++
+- Pink Snow-709-Difficulty 13++
+- Pink Snow-714-Difficulty 13++
+- Pink Snow-766-Difficulty 13++
+- Pink Snow-748-Difficulty 13++
+- Pink Snow-579-Difficulty 13++
+- Fleurs Flétries Gelées-10-Difficulty 11+
+- Fleurs Flétries Gelées-39-Difficulty 11+
+- Fleurs Flétries Gelées-15-Difficulty 11+
