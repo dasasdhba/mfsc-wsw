@@ -3295,3 +3295,7 @@
 - x22
 - Fleurs Flétries Gelées-5-Difficulty 11+
 - Fleurs Flétries Gelées-28-Difficulty 11+
+- Fleurs Flétries Gelées-56-Difficulty 11+
+- Fleurs Flétries Gelées-23-Difficulty 11+
+- Fleurs Flétries Gelées-47-Difficulty 11+
+- Pink Snow-633-Difficulty 13++
