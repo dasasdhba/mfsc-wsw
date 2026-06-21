@@ -3732,3 +3732,6 @@
 - Fleurs Flétries Gelées-605-Difficulty 11+
 - Fleurs Flétries Gelées-592-Difficulty 11+
 - Fleurs Flétries Gelées-674-Difficulty 11+
+- Fleurs Flétries Gelées-578-Difficulty 11+
+- Fleurs Flétries Gelées 648-Difficulty 11+
+- Fleurs Flétries Gelées 656-Difficulty 11+
