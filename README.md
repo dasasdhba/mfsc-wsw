@@ -3935,3 +3935,34 @@
 - Fleurs Flétries Gelées-844-Difficulty 11+
 - Fleurs Flétries Gelées-904-Difficulty 11+
 - Fleurs Flétries Gelées-835-Difficulty 11+
+- Fleurs Flétries;Gelées-805-Difficulty 11+
+- Fleurs Flétries Gelées-788-Difficulty 11+
+- Fleurs Flétries Gelées-809-Difficulty 11+
+- Fleurs Flétries Gelées-893-Difficulty 11+
+- Fleurs Flétries Gelées-837-Difficulty 11+
+- Fleurs Flétries Gelées 889-Difficulty 11+
+- Fleurs Flétries Gelées 886-Difficulty 11+
+- Fleurs Flétries Gelées-763-Difficulty 11+
+- Fleurs Flétries Gelées-826-Difficulty 11+
+- Fleurs Flétries;Gelées-851-Difficulty 11+
+- Fleurs Flétries Gelées-887-Difficulty 11+
+- Fleurs Flétries Gelées-787-Difficulty 11+
+- Fleurs Flétries Gelées 813-Difficulty 11+
+- Fleurs Flétries Gelées-863-Difficulty 11+
+- Fleurs Flétries Gelées 883-Difficulty 11+
+- Fleurs Flétries Gelées-820-Difficulty 11+
+- Fleurs Flétries Gelées-793-Difficulty 11+
+- Fleurs Flétries Gelées-821-Difficulty 11+
+- Fleurs Flétries Gelées-825-Difficulty 11+
+- Fleurs Flétries Gelées-839-Difficulty 11+
+- Fleurs Flétries Gelées 827-Difficulty 11+
+- Fleurs Flétries Gelées-903-Difficulty 11+
+- Fleurs Flétries Gelées-882-Difficulty 11+
+- Fleurs Flétries Gelées 885-Difficulty 11+
+- Fleurs Flétries Gelées-876-Difficulty 11+
+- Fleurs Flétries Gelées-897-Difficulty 11+
+- Fleurs Flétries Gelées-711-Difficulty 11+
+- Fleurs Flétries Gelées 898-Difficulty 11+
+- Fleurs Flétries Gelées 879-Difficulty 11+
+- Fleurs Flétries Gelées862-Difficulty 11+
+- Fleurs Flétries Gelées-836-Difficulty 11+
