@@ -4088,3 +4088,18 @@
 - Fleurs Flétries Gelées-958-Difficulty 11+
 - Fleurs Flétries Gelées-968-Difficulty 11+
 - Fleurs Flétries Gelées-911-Difficulty 11+
+- Fleurs Flétries Gelées-954-Difficulty 11+
+- Fleurs Flétries Gelées 957-Difficulty 11+
+- Fleurs Flétries Gelées 966-Difficulty 11+
+- Fleurs Flétries Gelées-888-Difficulty 11+
+- Fleurs Flétries Gelées 948-Difficulty 11+
+- Fleurs Flétries Gelées-960-Difficulty 11+
+- Fleurs Flétries Gelées 952-Difficulty 11+
+- Fleurs Flétries Gelées 940-Difficulty 11+
+- Fleurs Flétries Gelées 768-Difficulty 11+
+- Fleurs Flétries Gelées-978-Difficulty 11+
+- Fleurs Flétries Gelées-935-Difficulty 11+
+- Fleurs Flétries Gelées 946-Difficulty 11+
+- Fleurs Flétries Gelées 980-Difficulty 11+
+- Fleurs Flétries Gelées-900-Difficulty 11+
+- FleursFlétries Gelées 970-Difficulty 11+
